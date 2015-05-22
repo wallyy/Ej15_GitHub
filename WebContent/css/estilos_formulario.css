@@ -1,0 +1,90 @@
+/* Reseteo */
+* {
+	/* border: 0;  no se verian ni las cajas de texto*/
+	margin: 0;
+	padding: 0;
+}
+
+/* **************************************************************************************** */
+/* Estilos para elementos HTML ************************************************************/
+/* **************************************************************************************** */
+body {
+	background: rgb(220, 220, 220);
+	border: .1em solid #000000;
+	border-radius: .5em;
+	color: #000000; /* ya lo tiene perolo pongo */
+	font-family:  "Calibri", Helvetica, Arial;
+	margin: 0em auto;
+	width: 80%;
+}
+h1 {
+	font-size: 1.5em;
+	margin-left: .5em;
+	text-shadow: 2px 2px 2px rgba(70, 70, 70, .9);
+}
+form {
+
+	border: .1em solid #000000;
+	border-radius: .5em;
+	box-shadow: 3px 3px 2px rgba(70, 70, 70, .9);
+	margin-bottom: .5em;
+	margin-left: .5em;
+	padding-left: .5em;
+	width: 40%;	
+	text-shadow: 2px 2px 2px rgba(70, 70, 70, .9);
+}
+/*
+input [type="text"], input [type="email"], input [type="password"] {
+
+} */
+input, textarea {
+	background: #aaaaaa;
+	border-radius: .3em;
+	color: #6633ff;
+	font-family: Arial;
+	font-size: .7em;
+}
+
+input:focus, textarea:focus {
+	background: #9cfeff;
+}
+input[type="submit"], input[type="reset"]{
+	background: #FFFE9C;
+}
+
+textarea {
+	background: #D4FEFF;
+	resize: none;
+}
+/* **************************************************************************************** */
+/* Estilos para identificadores HTML ************************************************************/
+/* **************************************************************************************** */
+#enviar:hover, #borrar:hover {
+	background: #CBCA66;
+	border-radius: 2em;
+}
+
+/* tambien se puede hacer asi en vez de #enviar: hover etc
+input [type="submit"]:hover, input [type="reset"]:hover {
+	background: #CBCA66;
+	border-radius: .3em;
+} */
+/*  otra forma seria hacer una clase botones y logramos lo de arriba*/
+#formulario {
+	/* border: .1em solid #000000;
+	width: 40%; */
+}
+/* **************************************************************************************** */
+/* Estilos para clases HTML ************************************************************/
+/* **************************************************************************************** */
+.elemento {
+	margin-left: 3em;
+	margin-bottom: 1em;
+}
+.mano {
+	/* para que salga el dedito */
+	cursor: pointer;
+}
+.texto {
+	margin-top: .5em;
+}
