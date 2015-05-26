@@ -9,10 +9,10 @@
 /* Estilos para elementos HTML ************************************************************/
 /* **************************************************************************************** */
 body {
-	background: rgb(220, 220, 220);
-	border: .1em solid #000000;
+/* 	background: rgb(220, 220, 220);
+	border: .1em solid #000000; */
 	border-radius: .5em;
-	color: #000000; /* ya lo tiene perolo pongo */
+	color: #000000; /* ya lo tiene pero lo pongo */
 	font-family:  "Calibri", Helvetica, Arial;
 	margin: 0em auto;
 	width: 80%;
@@ -24,7 +24,7 @@ h1 {
 }
 form {
 
-	border: .1em solid #000000;
+	/* border: .1em solid #000000; */
 	border-radius: .5em;
 	box-shadow: 3px 3px 2px rgba(70, 70, 70, .9);
 	margin-bottom: .5em;
@@ -51,10 +51,22 @@ input:focus, textarea:focus {
 input[type="submit"], input[type="reset"]{
 	background: #FFFE9C;
 }
-
+table {
+	border: 1px solid blue;
+	padding: 3px;
+}
 textarea {
 	background: #D4FEFF;
 	resize: none;
+}
+th {
+	color: white;
+}
+td, th {
+	border: 1px solid blue;
+	padding: 3px;
+	width: 10%;
+	
 }
 /* **************************************************************************************** */
 /* Estilos para identificadores HTML ************************************************************/
