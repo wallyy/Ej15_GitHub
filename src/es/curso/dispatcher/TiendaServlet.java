@@ -27,7 +27,7 @@ public class TiendaServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
 	/**
-	 * Default constructor.
+	 * Default constructor.Hola
 	 */
 	public TiendaServlet() {
 		// TODO Auto-generated constructor stub
