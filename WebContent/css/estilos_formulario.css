@@ -8,9 +8,14 @@
 /* **************************************************************************************** */
 /* Estilos para elementos HTML ************************************************************/
 /* **************************************************************************************** */
+a {
+	display: block;
+	text-decoration: none;
+	padding: 1em;
+}
 body {
-/* 	background: rgb(220, 220, 220);
-	border: .1em solid #000000; */
+ 	background: rgb(220, 220, 220);
+	border: .1em solid #000000; 
 	border-radius: .5em;
 	color: #000000; /* ya lo tiene pero lo pongo */
 	font-family:  "Calibri", Helvetica, Arial;
@@ -24,7 +29,7 @@ h1 {
 }
 form {
 
-	/* border: .1em solid #000000; */
+	 border: .1em solid #000000; 
 	border-radius: .5em;
 	box-shadow: 3px 3px 2px rgba(70, 70, 70, .9);
 	margin-bottom: .5em;
@@ -60,7 +65,7 @@ textarea {
 	resize: none;
 }
 th {
-	color: white;
+	color: teal;
 }
 td, th {
 	border: 1px solid blue;

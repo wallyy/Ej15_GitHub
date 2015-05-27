@@ -8,7 +8,8 @@
 <link rel="stylesheet" href="../css/estilos_formulario.css" />
 </head>
 <body>
-    <form action="#" method="get" name="buscarPorNombre">
+<!-- esto se pone en jsp no en html para que no tengamos q poner siempre proyecto por si lo cambiásemos -->
+    <form action="${pageContext.request.contextPath}/Tienda/buscarPorNombre" method="get" name="buscarPorNombre">
         <fieldset>
 	        <label>NOMBRE:</label>
 	        <input type="text" name="nombre" id="nombre">
