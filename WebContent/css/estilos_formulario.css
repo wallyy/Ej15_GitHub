@@ -58,6 +58,7 @@ input[type="submit"], input[type="reset"]{
 }
 table {
 	border: 1px solid blue;
+	margin: 0 auto;
 	padding: 3px;
 }
 textarea {
@@ -70,6 +71,7 @@ th {
 td, th {
 	border: 1px solid blue;
 	padding: 3px;
+	text-align: center;
 	width: 10%;
 	
 }
